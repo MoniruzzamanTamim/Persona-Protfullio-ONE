@@ -1,0 +1,75 @@
+
+/* // Small devices (landscape phones, 4506px and up) */
+@media (max-width: 450px) {  
+    section{
+        padding: 0 !important;
+    }
+   
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 575px) { 
+    /* home section */
+    .home-content-info h1 {    font-size: 29px;  }
+    /* special section */
+    .sepecial-tittle h1 { font-size: 34px; margin-top: 20px;  }
+    .experience-section {  padding: 0; }
+    .experience-tittle h1 { font-size: 34px; }
+    /* protfullio section */
+    .project-content {  width: 85% !important; }
+   /* contact Section */
+    .contact-section form .form-input { display: block !important;}
+    .contact-section form .form-input input {  width: 94%; }
+    #contact-message { width: 95%; }
+}
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 767px) { 
+   
+    /* about section */
+    .about-section {
+        padding:  0;
+    }
+      /* protfullio section */
+      .project-content {  width: 65%; }
+      /* contact section */
+      .secont-map {  margin-top: 0 !important ; margin-left: 0 !important; }
+      iframe { width: 100% !important; height: 100% !important;  }
+    
+   
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (max-width: 991px) { 
+     /* ?header-section */
+     #menubar {  display: inline-block; }
+    .header-menu-part {  position: relative;   justify-content: flex-end;}
+    .header-menu {   position: absolute;   top: 18px;   width: 17rem; right:0;   background: #e50e0e;   padding: 25px; 
+          opacity: 1; transform: scale(0); transition: all .2s linear; visibility: hidden; z-index: 1000; }
+    .header-menu.active{ visibility: visible; opacity: 1;    transform: scale(1); transform-origin: top center;}
+    header .header-menu-part .header-menu a {    display: block; font-size: 18px;   font-weight: 500;   padding: 9px 13px;
+         color: #fff;  }
+    .header-menu {  padding: 0;  }
+    header .header-menu-part .header-menu a:hover {    border-radius: 0;  }
+    header .header-menu-part .header-menu a { padding: 9px 28px;  } 
+
+    /* Home Section */
+    .home-section{padding: 0; background: url(./img/me.png); background-repeat: no-repeat; background-position: center center; }
+    .home-image-section{display: none;}
+    /* about-section  */
+    .about-image-part img { padding-top: 57px;  }
+    /* protfullio section */
+    .project-content {  width: 85% ; }
+     /* contact section */
+     iframe {  width:375px ;  height: 357px !important;   }
+     .secont-text {padding: 84px 17px; }
+   
+    }
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) { 
+    iframe {
+        width: 481px;
+        height: 357px;
+    }
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
